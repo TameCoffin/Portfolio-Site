@@ -1,0 +1,102 @@
+:root {
+    --tamewhite: #CFCFCF;
+    --font1: 'Signika Negative', sans-serif;
+}
+
+body {
+    background-color: black;
+    transition: .5s ease;
+}
+
+/* HEADER /////////////// */
+
+.header-image {
+    border: 1px solid white;
+}
+
+.logo-home-img:hover {
+    border-radius: 100%;
+    border: 4px solid var(--tamewhite);
+}
+
+.logo-home-img {
+    transition: .5s ease;
+}
+
+/* MAIN /////////// */
+
+.image-link {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.info-link:hover .image-link {
+    filter: brightness(150%);
+    filter: contrast(200%);
+}
+
+
+.art-link:hover .image-link {
+    filter: brightness(150%);
+    filter: contrast(200%);
+}
+
+.coding-link:hover .image-link {
+    filter: brightness(150%);
+    filter: contrast(200%);
+}
+
+.art-gallery-link {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.art-gallery-link:hover {
+    filter: contrast(30%);
+}
+
+.gallery-title {
+    color: var(--tamewhite);
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+.headshot {
+    border: 5px solid var(--tamewhite);
+}
+
+.info-text {
+    color: var(--tamewhite);
+    border-right: 1px solid var(--tamewhite);
+    padding: 30px;
+    font-family: var(--font1);
+}
+
+/* FOOTER /////////// */
+
+.footer-section {
+    background-color: rgb(34, 34, 34);
+    color: var(--tamewhite);
+    font-family: var(--font1);
+    border-top: 3px solid var(--tamewhite);
+    border-bottom: 3px solid var(--tamewhite);
+    padding-top: 20px;
+}
+
+.credit {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+
+    .logo-img {
+        width: 50%;;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .logo-img {
+        width: 25%;
+    }
+}
